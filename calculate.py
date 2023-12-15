@@ -34,7 +34,4 @@ elif operation == 'div':
 else:
     print("Invalid operation. Please enter 'add', 'sub', 'mul', or 'div'.")
 
-else:
-    print("Invalid operation. Please enter 'add' or 'sub'.")
-
 
