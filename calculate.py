@@ -1,3 +1,16 @@
+
+def multiply_numbers(x, y):
+    return x * y
+    
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+sol = input("Enter add or sub , mul or div: ")
+
+
+elif operation == 'mul':
+    result = multiply_numbers(num1, num2)
+    print(f"The product of {num1} and {num2} is: {result}")
+
 def add_numbers(x, y):
     return x + y
 
@@ -17,3 +30,4 @@ elif operation == 'sub':
     print(f"The difference between {num1} and {num2} is: {result}")
 else:
     print("Invalid operation. Please enter 'add' or 'sub'.")
+
